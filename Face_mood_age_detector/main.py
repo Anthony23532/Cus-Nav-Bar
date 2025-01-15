@@ -1,6 +1,6 @@
 import cv2
 
-# Load the Haar Cascade classifier for face detection
+
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Start video capture from the webcam
